@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ruan Araujo dos Santos">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Uma página única com rolagem suave, estilizada e responsiva para com todas as telas, uma galeria de imagens e divisões semânticas por seções">
+    <meta name="keywords" content="Single Page, Smooth Scrolling, Gallery">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Site de Página Única</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="main-header">
+        <a href="#hero" id="logo">Meu Site</a>
+        <nav class="main-nav">
+            <ul>
+                <li href="#gallery"></li>
+                <li href="#testimonials"></li>
+                <li href="#contact"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Bem-vindo ao Nosso Espaço Criativo</h1>
+                <p class="hero-subtitle">Onde ideias incriveis ganham vida</p>
+                <a href="#contact" class="hero-button">Entre em contato</a>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <div class="gallery-grid"></div>
+                <div class="gallery-item"><img src="" alt="Descrição 1"></div>
+                <div class="gallery-item"><img src="" alt="Descrição 2"></div>
+                <div class="gallery-item"><img src="" alt="Descrição 3"></div>
+                <div class="gallery-item"><img src="" alt="Descrição 4"></div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">
+                </h2>
+                <div class="testimonial-grid"></div>
+                <article class="testimonial-card">
+                    <img src="" alt="Foto de Maria" class="testimonial-avatar">
+                    <blockquote>“Trabalho impecável e criativo. Transformaram minha ideia em realidade!”</blockquote>
+                    <cite>Maria Silva</cite>
+                </article>
+                <article class="testimonial-card">
+                    <img src="" alt="Foto de João Pereira" class="testimonial-avatar">
+                    <blockquote>“Profissionalismo e entrega no prazo. Superou minhas expectativas.”</blockquote>
+                    <cite>João Pereira</cite>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="form-container">
+                <h2 class="section-title">Fale Conosco</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+    
+                  <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" id="email" name="user_email">
+                    </div>
+                <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+    <p>&copy; 2025 MeuSite. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
